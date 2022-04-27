@@ -1,0 +1,27 @@
+@use "colors" as *;
+
+.time-card-widget {
+	height: 50vh;
+	width: 75vw;
+
+	border: 1px solid white;
+
+	display: flex;
+	flex-direction: row;
+	//align-items: center;
+	justify-content: stretch;
+
+	& > div {
+		height: 100%;
+	}
+
+	& .name-card {
+		flex-grow: 1;
+		border: 1px solid gold;
+	}
+
+	& .time-cards {
+		flex-grow: 3;
+		border: 1px solid turquoise;
+	}
+}

@@ -1,0 +1,16 @@
+@use "colors" as *;
+@use "reset" as *;
+@use "time-card-widget" as *;
+//@import "colors.scss";
+
+.App {
+	height: 100vh;
+	width: 100vw;
+
+	background-color: $darkblue;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}

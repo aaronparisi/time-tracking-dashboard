@@ -1,3 +1,67 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.time-card-widget {
+  height: 50vh;
+  width: 75vw;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+.time-card-widget > div {
+  height: 100%;
+}
+.time-card-widget .name-card {
+  flex-grow: 1;
+  border: 1px solid gold;
+}
+.time-card-widget .time-cards {
+  flex-grow: 3;
+  border: 1px solid turquoise;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0e1323;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 /*# sourceMappingURL=index.css.map */

@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"index.css"}
+{"version":3,"sourceRoot":"","sources":["reset.scss","time-card-widget.scss","index.scss","colors.scss"],"names":[],"mappings":"AAAA;EACC;EACA;;;AAGD;AAAA;AAAA;EAGC;;;AAGD;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;EAUC;EACA;EACA;;;AAGD;AAAA;EAEC;;;AAGD;EACC;EACA;;;AC/BD;EACC;EACA;EAEA;EAEA;EACA;EAEA;;AAEA;EACC;;AAGD;EACC;EACA;;AAGD;EACC;EACA;;;ACnBF;EACC;EACA;EAEA,kBCTU;EDWV;EACA;EACA;EACA","file":"index.css"}
