@@ -19,6 +19,16 @@
 	flex-wrap: wrap;
 }
 
+@media screen and (max-width: 1750px) {
+	.time-card-widget {
+		& .time-cards {
+			& .time-card {
+				flex-basis: 50%;
+			}
+		}
+	}
+}
+
 @media screen and (max-width: 1120px) {
 	.time-card-widget {
 		flex-direction: column;
@@ -26,9 +36,14 @@
 
 		& .time-cards {
 			flex: auto;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			height: auto;
 
 			& .time-card {
+				width: 100%;
 				min-height: 250px;
+				height: 20vw;
 			}
 		}
 

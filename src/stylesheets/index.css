@@ -52,7 +52,7 @@ img {
   flex-wrap: wrap;
 }
 .time-cards .time-card {
-  flex: 1 1 350px;
+  flex: 1 1 33.33%;
   border: 1px solid orchid;
 }
 
@@ -69,6 +69,11 @@ img {
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 1750px) {
+  .time-card-widget .time-cards .time-card {
+    flex-basis: 50%;
+  }
+}
 @media screen and (max-width: 1120px) {
   .time-card-widget {
     flex-direction: column;
@@ -77,9 +82,14 @@ img {
   }
   .time-card-widget .time-cards {
     flex: auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
   }
   .time-card-widget .time-cards .time-card {
+    width: 100%;
     min-height: 250px;
+    height: 20vw;
   }
 }
 .App {
