@@ -35,46 +35,42 @@ img {
 }
 
 .name-card {
-  flex: 0 0 230px;
+  flex: 1 1 230px;
   min-height: 300px;
   border: 1px solid gold;
 }
 
 .time-cards {
   border: 1px solid turquoise;
-  flex: 1 1 300px;
+  flex: 3 1 300px;
+  height: 75vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
   flex-wrap: wrap;
 }
 .time-cards .time-card {
-  height: 200px;
-  width: 200px;
-  margin: 50px;
+  flex: 1 1 350px;
   border: 1px solid orchid;
 }
 
 .time-card-widget {
   width: 75vw;
   min-width: 300px;
+  height: 75vh;
   border: 1px solid white;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: stretch;
   align-items: stretch;
   flex-wrap: wrap;
-}
-.time-card-widget > div {
-  min-width: 200px;
 }
 
 @media screen and (max-width: 1120px) {
   .time-card-widget {
     flex-direction: column;
-    width: 75vw;
-    min-width: 300px;
+    align-items: stretch;
   }
 }
 .App {
