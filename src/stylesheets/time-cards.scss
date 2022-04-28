@@ -1,0 +1,22 @@
+@use "colors" as *;
+
+.time-cards {
+	border: 1px solid turquoise;
+	flex: 1 1 300px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+	flex-wrap: wrap;
+
+	& .time-card {
+		height: 200px;
+		width: 200px;
+
+		margin: 50px;
+
+		border: 1px solid orchid;
+	}
+}

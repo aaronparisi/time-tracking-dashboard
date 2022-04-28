@@ -34,32 +34,57 @@ img {
   height: auto;
 }
 
+.name-card {
+  flex: 0 0 230px;
+  min-height: 300px;
+  border: 1px solid gold;
+}
+
+.time-cards {
+  border: 1px solid turquoise;
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.time-cards .time-card {
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+  border: 1px solid orchid;
+}
+
 .time-card-widget {
-  height: 50vh;
   width: 75vw;
+  min-width: 300px;
   border: 1px solid white;
   display: flex;
   flex-direction: row;
-  justify-content: stretch;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
 }
 .time-card-widget > div {
-  height: 100%;
-}
-.time-card-widget .name-card {
-  flex-grow: 1;
-  border: 1px solid gold;
-}
-.time-card-widget .time-cards {
-  flex-grow: 3;
-  border: 1px solid turquoise;
+  min-width: 200px;
 }
 
+@media screen and (max-width: 1120px) {
+  .time-card-widget {
+    flex-direction: column;
+    width: 75vw;
+    min-width: 300px;
+  }
+}
 .App {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #0e1323;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

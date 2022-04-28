@@ -1,27 +1,29 @@
 @use "colors" as *;
+@use "name-card" as *;
+@use "time-cards" as *;
 
 .time-card-widget {
-	height: 50vh;
 	width: 75vw;
+	min-width: 300px;
 
 	border: 1px solid white;
 
 	display: flex;
 	flex-direction: row;
-	//align-items: center;
-	justify-content: stretch;
+	justify-content: center;
+	align-items: stretch;
+
+	flex-wrap: wrap;
 
 	& > div {
-		height: 100%;
+		min-width: 200px;
 	}
+}
 
-	& .name-card {
-		flex-grow: 1;
-		border: 1px solid gold;
-	}
-
-	& .time-cards {
-		flex-grow: 3;
-		border: 1px solid turquoise;
+@media screen and (max-width: 1120px) {
+	.time-card-widget {
+		flex-direction: column;
+		width: 75vw;
+		min-width: 300px;
 	}
 }
