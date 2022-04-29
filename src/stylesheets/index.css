@@ -68,6 +68,11 @@ img {
   align-items: stretch;
   flex-wrap: wrap;
 }
+.time-card-widget .logout {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
 
 @media screen and (max-width: 1750px) {
   .time-card-widget .time-cards .time-card {
@@ -102,6 +107,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 /*# sourceMappingURL=index.css.map */
