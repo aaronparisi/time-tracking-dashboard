@@ -85,6 +85,10 @@ img {
     height: auto;
     align-items: stretch;
   }
+  .time-card-widget .logout {
+    top: 1%;
+    right: 1%;
+  }
   .time-card-widget .time-cards {
     flex: auto;
     flex-direction: column;

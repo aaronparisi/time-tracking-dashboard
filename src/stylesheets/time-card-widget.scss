@@ -40,6 +40,11 @@
 		flex-direction: column;
 		height: auto;
 
+		& .logout {
+			top: 1%;
+			right: 1%;
+		}
+
 		& .time-cards {
 			flex: auto;
 			flex-direction: column;
